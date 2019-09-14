@@ -38,8 +38,42 @@ git config --global user.email "你注册 github 使用的邮件地址"
 - terminal
 
   终端。特指命令提示符窗口，分为 command/powershell 两种。
+  
+- branch
+
+  分支。一个仓库有一个默认的分支 master，也可以建立不同的分支。
+
+- HEAD
+
+  文件的当前版本叫做 HEAD。
+
+  HEAD^ 上一个版本，HEAD^^ 上上一个版本，HEAD~100 上一百个版本。
+
+- stage
+
+  暂存区，相对应的持久区就是 branch，关系如下：
+
+  ![git-repo](imgs/0)
 
 ## git 命令
+
+命令这一块并不是特别重要了，不管是 github 还是 vscode 等工具，都已经将命令进行菜单化了，但学习命令的目的主要是为了搞清楚各个术语的含义，不了解这个 github 用不好。
+
+- clone 仓库地址
+
+  克隆仓库，将 github 已经建设好的仓库克隆到本地。
+
+- add 文件
+
+  添加文件到仓库。
+
+- rm 文件
+
+  删除文件。
+
+- commit -m '提交消息'
+
+  提交变更。
 
 ## 开始工作
 

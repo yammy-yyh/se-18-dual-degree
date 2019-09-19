@@ -126,7 +126,11 @@ git clone https://github.com/K-PaxDr/se-18-dual-degree.git
 
 填好后，点击 Create pull request / Merge pull request，之后就等待老师的批准。
 
+## 其他
 
+### 私有库
+
+github 还支持一种私有库（private），可以通过 Settings/Collaborators 来添加协作者。
 
 
 
